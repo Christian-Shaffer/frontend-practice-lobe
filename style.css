@@ -3,6 +3,10 @@
     font-family: Arial;
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,12 +22,13 @@ a {
 }
 
 nav {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 75px 0px 75px;
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 .logo {
@@ -48,7 +53,7 @@ nav {
 }
 
 .hero-top-line {
-    font-size: 70px;
+    font-size: 80px;
     display: flex;
     gap: 15px;
 }
@@ -67,4 +72,80 @@ nav {
     max-width: 660px;
     text-align: center;
     font-size: 32px;
+}
+
+.thumbnail {
+    max-width: 75%;
+    display: flex;
+    margin: 100px auto 90px auto;
+    border-radius: 16px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.download.bigger {
+    padding: 22px 45px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+
+hr {
+    max-width: 78%;
+    margin-bottom: 100px;
+}
+
+.logo.small {
+    width: 110px;
+    margin: 10px 0px -5px -8px;
+}
+
+.footer {
+    display: flex;
+    max-width: 68%;
+    margin: 0 auto 150px auto;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer p, .footer a {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer .line-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.social {
+    width: 50px;
+}
+
+.line-1 {
+    margin: -25px;
+}
+
+.top-line-in-footer {
+    font-weight: bold;
 }
